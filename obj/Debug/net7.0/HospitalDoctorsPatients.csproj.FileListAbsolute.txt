@@ -1,0 +1,14 @@
+/home/Coder/Descargas/HospitalDoctorsPatients/bin/Debug/net7.0/HospitalDoctorsPatients
+/home/Coder/Descargas/HospitalDoctorsPatients/bin/Debug/net7.0/HospitalDoctorsPatients.deps.json
+/home/Coder/Descargas/HospitalDoctorsPatients/bin/Debug/net7.0/HospitalDoctorsPatients.runtimeconfig.json
+/home/Coder/Descargas/HospitalDoctorsPatients/bin/Debug/net7.0/HospitalDoctorsPatients.dll
+/home/Coder/Descargas/HospitalDoctorsPatients/bin/Debug/net7.0/HospitalDoctorsPatients.pdb
+/home/Coder/Descargas/HospitalDoctorsPatients/obj/Debug/net7.0/HospitalDoctorsPatients.GeneratedMSBuildEditorConfig.editorconfig
+/home/Coder/Descargas/HospitalDoctorsPatients/obj/Debug/net7.0/HospitalDoctorsPatients.AssemblyInfoInputs.cache
+/home/Coder/Descargas/HospitalDoctorsPatients/obj/Debug/net7.0/HospitalDoctorsPatients.AssemblyInfo.cs
+/home/Coder/Descargas/HospitalDoctorsPatients/obj/Debug/net7.0/HospitalDoctorsPatients.csproj.CoreCompileInputs.cache
+/home/Coder/Descargas/HospitalDoctorsPatients/obj/Debug/net7.0/HospitalDoctorsPatients.dll
+/home/Coder/Descargas/HospitalDoctorsPatients/obj/Debug/net7.0/refint/HospitalDoctorsPatients.dll
+/home/Coder/Descargas/HospitalDoctorsPatients/obj/Debug/net7.0/HospitalDoctorsPatients.pdb
+/home/Coder/Descargas/HospitalDoctorsPatients/obj/Debug/net7.0/HospitalDoctorsPatients.genruntimeconfig.cache
+/home/Coder/Descargas/HospitalDoctorsPatients/obj/Debug/net7.0/ref/HospitalDoctorsPatients.dll
