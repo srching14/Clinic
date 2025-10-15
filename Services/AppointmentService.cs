@@ -40,10 +40,29 @@ namespace Hospital.Services
             var ap = new Appointment { DoctorId = doctor.Id, PatientId = patient.Id, When = when };
             _repo.Add(ap);
 
-            // send confirmation (stub)
+            // send confirmation email
             try
             {
-                _emailService.SendEmail(patient.Email, $"Appointment confirmation for {when:yyyy-MM-dd HH:mm}", $"Doctor: {doctor.Name}");
+                string subject = $"Appointment Confirmation - {when:yyyy-MM-dd HH:mm}";
+                string body = $@"Dear {patient.Name},
+
+Your appointment has been successfully scheduled.
+
+Details:
+- Date: {when:dddd, MMMM dd, yyyy}
+- Time: {when:HH:mm}
+- Doctor: Dr. {doctor.Name}
+- Specialty: {doctor.Specialty}
+
+Location: Hospital Medical Center
+Please arrive 15 minutes before your appointment.
+
+If you need to reschedule or cancel your appointment, please contact us.
+
+Best regards,
+Hospital Medical Center";
+
+                _emailService.SendEmailWithAdminCopy(patient.Email, subject, body);
                 ap.EmailSentStatus = "sent";
             }
             catch
